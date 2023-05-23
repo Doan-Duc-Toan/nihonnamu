@@ -1,0 +1,99 @@
+#content.cat_product{
+    display: flex;
+    justify-content: space-between;
+}
+#content.cat_product #add_cat_product{
+    background-color: #FFFFFF;
+    padding: 15px;
+    flex-basis: 25%;
+    height: 300px;
+}
+#content.cat_product #add_cat_product button{
+    padding: 5px;
+}
+
+#content.cat_product #list_cat_product{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    
+}
+#content.cat_product #list_cat_product table{
+    width: 100%;
+    padding: 25px;
+}
+#content.cat_product #list_cat_product table thead tr{
+    border-top:  1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+#content.cat_product #list_cat_product table thead tr td{
+    padding: 15px 10px;
+    color: #000;
+    font-weight: 600;
+}
+#content.cat_product #list_cat_product table tbody tr{
+    border-top:  1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+#content.cat_product #list_cat_product table tbody tr td{
+    padding: 15px 10px;
+    color: #000;
+}
+#content.cat_product #list_cat_product table tbody tr td.approved span{
+    padding: 2px 4px;
+    background-color: #28A745;
+    color: #f0f0f0;
+    font-weight: 600;
+    font-size: 14px;
+}
+#content.cat_product #list_cat_product table tbody tr td a i.node{
+    color: #f0f0f0;
+    display: inline-block;
+    padding: 10px;
+    background-color: #24b145;
+}
+#content.cat_product #list_cat_product table tbody tr td a i.node:hover{
+    background-color: #155b26;
+}
+#content.cat_product #list_cat_product table tbody tr td a i.trash{
+    color: #f0f0f0;
+    display: inline-block;
+    padding: 10px;
+    background-color: #df3a4b;
+}
+#content.cat_product #list_cat_product table tbody tr td a i.trash:hover{
+    background-color: #b71324;
+}
+
+#content.cat_product #list_cat_product table tbody tr td a i.agree{
+    color: #f0f0f0;
+    display: inline-block;
+    padding: 10px;
+    background-color: #28A745;
+}
+#content.cat_product #list_cat_product table tbody tr td a i.agree:hover{
+    background-color: #155b26;
+
+}
+#content.cat_product #list_cat_product table tbody tr td.pending_approval span{
+    background-color: #FFC119;
+    padding: 2px 4px;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#list_cat_product_having{
+    margin-bottom: 20px;
+}
+#list_cat_product h5{
+    background-color: #F7F7F7;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 0px;
+}

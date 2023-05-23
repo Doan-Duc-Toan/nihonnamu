@@ -1,0 +1,48 @@
+#content.add_product h5{
+    background-color: #F7F7F7;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 0px;
+}
+
+#content.add_product form{
+    background-color: #FFFFFF;
+    padding:15px
+
+}
+#content.add_product #general_product{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#content.add_product #general_product #product_info{
+    flex-basis: 40%;
+    /* display: flex;
+    flex-direction: column; */
+}
+#content.add_product #general_product #describe{
+   flex-basis: 58%;
+}
+#content.add_product #general_product #describe textarea{
+   height: 135px;
+}
+#content.add_product form select{
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+#content.add_product form select.form-control.select_cat_child{
+    display: none;
+}
+#content.add_product form #img_upload{
+    margin-top: 50px;
+}
+#content.add_product form #img_upload img{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 80px;
+    height: 80px;
+}

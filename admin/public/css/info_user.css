@@ -1,0 +1,37 @@
+#sidebar_info_user{
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(171, 170, 170);
+    min-height: 800px;
+    min-width: 200px;
+    z-index: 1;
+    position: relative;
+}
+#sidebar_info_user a{
+    display: block;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    padding: 15px 10px;
+    color: #f0f0f0;
+    position: absolute;
+    min-width: 200px;
+    left: -200px;
+    height: 50px;
+}
+#sidebar_info_user a:hover{
+    color: #0056BA;  
+    border: 1px solid rgba(0,0,0,.125);
+}
+#sidebar_info_user a.user_update{
+    top: 126px;
+}
+#sidebar_info_user a.change_pass{
+    top:176px;
+}
+#sidebar_info_user a.logout{
+    top:226px;
+}
+.show_error{
+    color: red;
+    font-style: italic;
+}

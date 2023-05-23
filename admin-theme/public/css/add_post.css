@@ -1,0 +1,23 @@
+#content h5#add_post_title{
+   background-color: #F7F7F7;
+   padding: 10px;
+   font-size: 16px;
+   text-transform: uppercase;
+   font-weight: 600;
+   margin-bottom: 0px;
+}
+form#add_post{
+   background-color: #FFFFFF;
+   padding: 15px;
+}
+form#add_post select#select_cat{
+    padding: 5px;
+}
+form#add_post button{
+    padding: 5px 15px;
+}
+form#add_post select.select_cat_child{
+    padding: 5px;
+    margin: 0px 10px;
+    display: none;
+}

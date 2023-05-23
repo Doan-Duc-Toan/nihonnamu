@@ -1,0 +1,118 @@
+.content_top{
+    display: flex;
+    flex-direction: row;
+    background-color: #F7F7F7;
+}
+.content_top h5{
+    padding:30px 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0px;
+    flex-basis: 70%;
+}
+.content_top form {
+    padding-top:20px;
+   display: flex;
+   flex-direction: row;
+   padding-right: 20px;
+   flex-basis: 30%;
+}
+.content_top form input{
+    margin-right: 15px;
+    flex-basis: 70%;
+}
+.content_top form button{
+    flex-basis: 30%;
+    max-height:40px;
+}
+
+#list_product{
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#list_product #product_status{
+    padding-top: 20px;
+}
+#list_product #product_status a{
+    margin-right: 3px;
+    padding-right: 8px;
+    border-right: 1px solid rgb(111, 109, 109);
+    color: rgb(104, 104, 248);
+}
+#list_product #product_status a:last-child{
+    border: none;
+}
+#list_product #product_status a:hover{
+    color: rgb(13, 13, 210);
+}
+#list_product form #select_action{
+    padding-top:20px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+#list_product form #select_action select{
+    flex-basis: 20%;
+    margin-right: 15px;
+}
+#list_product form table{
+    width: 100%;
+    padding: 0px;
+
+}
+#list_product form table thead tr{
+    border-top:  1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+#list_product form table thead tr td{
+    padding: 15px 10px;
+    color: #000;
+    font-weight: 600;
+}
+#list_product form table tbody tr{
+    border-top:  1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+#list_product form table tbody tr td{
+    padding: 15px 10px;
+    color: #000;
+}
+#list_product form table tbody tr td img{
+     width: 80px;
+     height: 80px;
+}
+#list_product form table tbody tr td a i.node{
+    color: #f0f0f0;
+    display: inline-block;
+    padding: 10px;
+    background-color: #24b145;
+}
+#list_product form table tbody tr td a i.node:hover{
+    background-color: #155b26;
+}
+#list_product form table tbody tr td a i.trash{
+    color: #f0f0f0;
+    display: inline-block;
+    padding: 10px;
+    background-color: #df3a4b;
+}
+#list_product form table tbody tr td a i.trash:hover{
+    background-color: #b71324;
+
+}
+#list_product form table tbody tr td a{
+    color: #000;
+}
+#list_product form table tbody tr td a:hover{
+    color:  #0056BA;
+}
+#list_product form table tbody tr td.still span{
+    padding: 2px 4px;
+    background-color: #28A745;
+    color: #f0f0f0;
+    font-weight: 600;
+    font-size: 14px;
+}

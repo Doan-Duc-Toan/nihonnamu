@@ -1,0 +1,52 @@
+#user_detail{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 400px;
+    margin: 0px auto;
+    position: relative;
+}
+#user_detail #cover_image{
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#user_detail #cover_image img{
+    /* position: absolute; */
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+#user_detail #cover_image img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+#avatar img{
+    max-width: 100px;
+}
+#avatar img:hover{
+    opacity: 0.9;
+    transition: all ease-in-out 0.3s;
+}
+div#avatar {
+    display: flex;
+    position: absolute;
+    top: 145px;
+    left: 15px;
+}
+div#avatar span#fullname{
+    font-weight: 600;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 10px;
+}
+#user_detail #detail{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+#user_detail #detail span{
+    margin: 10px 0px;
+}

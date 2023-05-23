@@ -1,0 +1,33 @@
+#content #update_info h5{
+    background-color: #F7F7F7;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+#content #update_info{
+    background-color: #FFFFFF;
+    font-weight: 600;
+}
+#content #update_info form{
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 200px;
+}
+#content #update_info form #img_user{
+    margin-bottom: 30px;
+}
+#content #update_info form img{
+    /* width: 80px; */
+   height: 100px;
+   display: block;
+   margin: 15px 15px;
+}
+
+#content #update_info form #img_user .cover_image{
+    margin-bottom: 30px;
+}
+#content #update_info form #img_user label{
+    margin-right: 15px;
+}

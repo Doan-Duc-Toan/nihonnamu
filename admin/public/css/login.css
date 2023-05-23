@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(96, 96, 232) !important;
+}
+#login{
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 200px;
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+#login h3{
+   text-align: center;
+}
+#login label{
+    font-weight: 600;
+}
+#login button{
+  display: block;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+.show_error{
+    color: red;
+    font-style: italic;
+}

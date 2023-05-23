@@ -1,0 +1,26 @@
+#content #change_pass{
+    margin: 0px auto;
+    width: 400px;
+    background-color: #FFFFFF;
+}
+#content #change_pass h5{
+    background-color: #F7F7F7;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 0px;
+    text-align: center;
+}
+#content #change_pass form{
+    padding: 15px 30px;
+}
+#content #change_pass form input{
+    margin: 20px 0px;
+}
+#content #change_pass form button{
+    display: block;
+    padding: 5px 15px;
+    margin: 0px auto;
+}

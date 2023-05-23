@@ -1,0 +1,26 @@
+ul{
+    list-style: none;
+    padding: 0px;
+}
+#confim_delete_forever{
+    position: relative;
+    margin: 0px auto;
+    max-width:400px;
+    top: 200px;
+    text-align: center;
+    padding: 20px 15px;
+    display: none;
+    background-color: rgb(6, 5, 5);
+}
+
+body {
+    background-color: rgb(68, 68, 126);
+}
+
+ul li{
+    font-weight: 500;
+    color: #e1dddd;
+}
+button {
+    padding: 3px 20px;
+}
